@@ -103,8 +103,9 @@ This will run all the tests defined in `test_slackbot.py`.
 
 
 ## Set up your environment variables:
-Create a `.env` file in the root directory with the following content::
-OPENAI_API_KEY=your_openai_api_key
-SLACK_BOT_TOKEN=your_slack_bot_token
-SLACK_APP_TOKEN=your_slack_app_token
+Create a `.env` file in the root directory with the following content:
+
+-OPENAI_API_KEY=your_openai_api_key
+-SLACK_BOT_TOKEN=your_slack_bot_token
+-SLACK_APP_TOKEN=your_slack_app_token
 
