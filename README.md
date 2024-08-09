@@ -63,22 +63,24 @@ The project is organized as follows:
 ## Setup
 
 1. Clone the repository:
+   
 git clone https://github.com/yourusername/chief-code-test.git
 cd chief-code-test
-Copy
+
 2. Create a virtual environment and activate it:
 python -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
-Copy
+
+
 3. Install the required dependencies:
 pip install -r requirements.txt
-Copy
-4. Set up your environment variables:
+
+## Set up your environment variables:
 Create a `.env` file in the root directory with the following content:
-OPENAI_API_KEY=your_openai_api_key
-SLACK_BOT_TOKEN=your_slack_bot_token
-SLACK_APP_TOKEN=your_slack_app_token
-CopyReplace the placeholder values with your actual API keys and tokens.
+
+- OPENAI_API_KEY=your_openai_api_key
+- SLACK_BOT_TOKEN=your_slack_bot_token
+- SLACK_APP_TOKEN=your_slack_app_token
 
 ## Usage
 
@@ -102,10 +104,5 @@ This will run all the tests defined in `test_slackbot.py`.
 - When adding new features, make sure to add corresponding unit tests in `test_slackbot.py`.
 
 
-## Set up your environment variables:
-Create a `.env` file in the root directory with the following content:
 
-- OPENAI_API_KEY=your_openai_api_key
-- SLACK_BOT_TOKEN=your_slack_bot_token
-- SLACK_APP_TOKEN=your_slack_app_token
 
