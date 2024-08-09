@@ -29,10 +29,6 @@ source venv/bin/activate  # On Windows, use venv\Scripts\activate
 4.Install the required dependencies:
 pip install -r requirements.txt
 
-OPENAI_API_KEY=your_openai_api_key
-SLACK_BOT_TOKEN=your_slack_bot_token
-SLACK_APP_TOKEN=your_slack_app_token
-CopyReplace the placeholder values with your actual API keys and tokens.
 
 ## Usage
 
@@ -74,6 +70,8 @@ source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 3. Install the required dependencies:
 pip install -r requirements.txt
+
+
 
 ## Set up your environment variables:
 Create a `.env` file in the root directory with the following content:
